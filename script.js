@@ -1,5 +1,5 @@
 const friends = ['Ross','Rachel','Monica','Chandler','Joey','Phoebe','Regina Phalange','Ken Adams','Mike','Crap Bag','Princess Consuela'];
-const quotes = [
+const crime = [
     'was on a break',
     'doesn\'t share food',
     'wished they could help but didn\'t want to',
@@ -20,7 +20,14 @@ const chat = [
     'pivot'
 ]
 
-console.log(`Hi, I'm ${friends[Math.floor(Math.random()*friends.length)]}'s detective friend.`);
-console.log(`I suspect someone ${quotes[Math.floor(Math.random()*quotes.length)]}.`);
-console.log(`Before we investigate, lets ${chat[Math.floor(Math.random()*chat.length)]}.`);
-console.log('raja');
+const giveIntro = () => {
+    return `Hi, I'm ${friends[Math.floor(Math.random()*friends.length)]}'s detective friend.`;
+}
+
+const crimeCommitted = () => {
+    return `I suspect someone ${crime[Math.floor(Math.random()*crime.length)]}.`;
+}
+
+const chatBeforeInv = () => {
+    return `Before we investigate, lets ${chat[Math.floor(Math.random()*chat.length)]}.`
+}

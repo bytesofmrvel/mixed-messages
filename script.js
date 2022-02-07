@@ -23,3 +23,4 @@ const chat = [
 console.log(`Hi, I'm ${friends[Math.floor(Math.random()*friends.length)]}'s detective friend.`);
 console.log(`I suspect someone ${quotes[Math.floor(Math.random()*quotes.length)]}.`);
 console.log(`Before we investigate, lets ${chat[Math.floor(Math.random()*chat.length)]}.`);
+console.log('raja');
